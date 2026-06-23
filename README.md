@@ -4,6 +4,10 @@ Official Ruby gem for [MailCapture](https://mailcapture.app) — a real email ca
 
 Zero runtime dependencies. Works with any Ruby web framework (Rails, Sinatra, Hanami, Roda, or plain Rack).
 
+MailCapture lets you test email flows by capturing emails sent to unique per-test addresses. Trigger your mailer, then call the API to assert on subject lines, body content, OTP codes, and more — no mock mailers, no Mailtrap, no brittle inbox scraping.
+
+A MailCapture account is required — free and paid plans are available. [Sign up at mailcapture.app](https://mailcapture.app).
+
 ## Requirements
 
 - Ruby 3.1+
